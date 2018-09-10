@@ -16,7 +16,7 @@ def back():
         print()
         hashs()
     elif back[0].upper() == 'N':
-        exit;
+        exit
     else:
         print('\033[92m?')
         exit
@@ -31,14 +31,14 @@ def banner():
    \ \_______\ \_______\ \__\ \__\ \__\\ \__\ \_______\ \_______\       ___ 
     \|_______|\|_______|\|__|\|__|\|__| \|__|\|_______|\|_______|      |\__\\
                                                                         \|__| 1.1
-     A Checking tool for Hash codes and Passwords leaked""")
+     Tool for Checking Hashes and Password Leaks""")
     print()
 
 def hashs():
     try:
         print("""\033[96mWhat do you want to check?
-    1, Password Leaked      3, About Author     
-    2, Hash Leaked          4, No Check Anything! (Exit)""")
+    1. Password      3. Author     
+    2. Hash          4. Exit""")
         print()
 
         choice = input('Enter your choice (1-4): ')
@@ -68,11 +68,11 @@ SHA512: """+js['sha512']+"""""")
         elif choice == '3':
             print("""\033[93mLeaked? 1.1 - A Checking tool for Hash codes and Passwords leaked
 
-    AUTHOR: Ph03n1x_Crus4d3r
+    AUTHOR: Ph03n1x_Crus4d3r""")
             back()
 
         elif choice == '4':
-            exit;
+            exit
 
         else:
             print('?')
@@ -83,7 +83,7 @@ SHA512: """+js['sha512']+"""""")
         print()
         exit
     except requests.exceptions.ConnectionError:
-        print('\033[91mYour Internet Offline.')
+        print('\033[91mYour Internet is Offline.')
         exit
     except json.decoder.JSONDecodeError:
         print('\033[93mCongratulations! It has not leaked.')
