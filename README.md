@@ -38,3 +38,6 @@ Leaked? uses API from <a href="https://lea.kz/api" target="_blank"><span style="
 ![Run Leaked? in Kali Linux](https://linuxteamvietnam.us/wp-content/uploads/2018/09/Leaked-KaliLinux.png)
 
 Thanks to <a href="https://twitter.com/webtobesocial" target="_blank"><span style="color: blue">@webtobesocial</span></a> for his free API!
+
+
+WARNING: WILL NOT WORK WITH ANYTHING UNDER PYTHON 3.0
