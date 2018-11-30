@@ -27,11 +27,13 @@ Afther that, Run Command Propmt or PowerShell and enter this commands:
     cd Leaked
     pip install requests
     python leaked.py
+    
 
 
 # Notes
 Leaked? uses API from <a href="https://lea.kz/api" target="_blank"><span style="color: blue">lea.kz</span></a>
 
+<b>TO UPDATE GO TO DIRECTORY AND DO git pull -f</b>
 
 Thanks to <a href="https://twitter.com/webtobesocial" target="_blank"><span style="color: blue">@webtobesocial</span></a> for his free API!
 
